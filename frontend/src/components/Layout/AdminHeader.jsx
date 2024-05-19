@@ -14,7 +14,7 @@ const AdminHeader = () => {
       <div>
         <Link to="/">
           <img
-            src="https://shopo.quomodothemes.website/assets/images/logo.svg"
+            src="C:\Users\walve\OneDrive\Desktop\On-Click\Eshop-tutorial\frontend\src\static\onclick_logo-removebg-preview.png"
             alt=""
           />
         </Link>
@@ -28,13 +28,13 @@ const AdminHeader = () => {
               className="mx-5 cursor-pointer"
             />
           </Link>
-          <Link to="/dashboard-events" className="800px:block hidden">
+          {/* <Link to="/dashboard-events" className="800px:block hidden">
             <MdOutlineLocalOffer
               color="#555"
               size={30}
               className="mx-5 cursor-pointer"
             />
-          </Link>
+          </Link> */}
           <Link to="/dashboard-products" className="800px:block hidden">
             <FiShoppingBag
               color="#555"

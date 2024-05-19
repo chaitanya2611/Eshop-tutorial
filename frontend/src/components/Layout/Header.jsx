@@ -58,7 +58,7 @@ const Header = ({ activeHeading }) => {
           <div>
             <Link to="/">
               <img
-                src="https://shopo.quomodothemes.website/assets/images/logo.svg"
+                src="C:\Users\walve\OneDrive\Desktop\On-Click\Eshop-tutorial\frontend\src\static\onclick_logo-removebg-preview.png"
                 alt=""
               />
             </Link>

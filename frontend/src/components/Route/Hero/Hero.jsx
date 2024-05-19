@@ -15,13 +15,11 @@ const Hero = () => {
         <h1
           className={`text-[35px] leading-[1.2] 800px:text-[60px] text-[#3d3a3a] font-[600] capitalize`}
         >
-          Best Collection for <br /> home Decoration
+          E-Commerce Website For <br /> Small Region
         </h1>
         <p className="pt-5 text-[16px] font-[Poppins] font-[400] text-[#000000ba]">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae,
-          assumenda? Quisquam itaque <br /> exercitationem labore vel, dolore
-          quidem asperiores, laudantium temporibus soluta optio consequatur{" "}
-          <br /> aliquam deserunt officia. Dolorum saepe nulla provident.
+        With "OnClick Get What You Want," our aim is to bridge this gap by offering a comprehensive and user-centric e-commerce platform tailored specifically for small regional markets. We seek to create a robust, scalable, and feature-rich solution that empowers local businesses to thrive in the digital economy while providing consumers with a seamless and personalized shopping experience. {" "}
+          {/* <br /> aliquam deserunt officia. Dolorum saepe nulla provident. */}
         </p>
         <Link to="/products" className="inline-block">
             <div className={`${styles.button} mt-5`}>
