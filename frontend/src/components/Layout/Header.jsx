@@ -57,10 +57,7 @@ const Header = ({ activeHeading }) => {
         <div className="hidden 800px:h-[50px] 800px:my-[20px] 800px:flex items-center justify-between">
           <div>
             <Link to="/">
-              <img
-                src="C:\Users\walve\OneDrive\Desktop\On-Click\Eshop-tutorial\frontend\src\static\onclick_logo-removebg-preview.png"
-                alt=""
-              />
+            <h1 style={{fontSize:"30px",fontWeight:"bold"}}>OnClick</h1>
             </Link>
           </div>
           {/* search box */}

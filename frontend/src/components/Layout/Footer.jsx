@@ -36,11 +36,7 @@ const Footer = () => {
       </div>
       <div className="grid grid-cols-1 sm:gird-cols-3 lg:grid-cols-4 gap-6 sm:px-8 px-5 py-16 sm:text-center">
         <ul className="px-5 text-center sm:text-start flex sm:block flex-col items-center">
-          <img
-            src="C:\Users\walve\OneDrive\Desktop\On-Click\Eshop-tutorial\frontend\src\static\onclick_logo-removebg-preview (1).svg"
-            alt=""
-            style={{ filter: "brightness(0) invert(1)" }}
-          />
+          <h1 style={{fontSize:"30px",fontWeight:"bold"}}>OnClick</h1>
           <br />
           <p>The home and elements needeed to create beatiful products.</p>
           <div className="flex items-center mt-[15px]">
@@ -112,12 +108,12 @@ const Footer = () => {
       >
         <span>© 2024 GCEK. All rights reserved.</span>
         <span>Terms · Privacy Policy</span>
-        <div className="sm:block flex items-center justify-center w-full">
+        {/* <div className="sm:block flex items-center justify-center w-full">
           <img
             src="https://hamart-shop.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooter-payment.a37c49ac.png&w=640&q=75"
             alt=""
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

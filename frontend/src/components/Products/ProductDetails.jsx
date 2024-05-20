@@ -152,7 +152,7 @@ const ProductDetails = ({ data }) => {
                 <p>{data.description}</p>
                 <div className="flex pt-3">
                   <h4 className={`${styles.productDiscountPrice}`}>
-                    {data.discountPrice}$
+                    {data.discountPrice}₹
                   </h4>
                   <h3 className={`${styles.price}`}>
                     {data.originalPrice ? data.originalPrice + "₹" : null}
@@ -219,9 +219,9 @@ const ProductDetails = ({ data }) => {
                         {data.shop.name}
                       </h3>
                     </Link>
-                    <h5 className="pb-3 text-[15px]">
+                    {/* <h5 className="pb-3 text-[15px]">
                       ({averageRating}/5) Ratings
-                    </h5>
+                    </h5> */}
                   </div>
                   <div
                     className={`${styles.button} bg-[#6443d1] mt-4 !rounded !h-11`}
@@ -348,9 +348,9 @@ const ProductDetailsInfo = ({
                 />
                 <div className="pl-3">
                   <h3 className={`${styles.shop_name}`}>{data.shop.name}</h3>
-                  <h5 className="pb-2 text-[15px]">
+                  {/* <h5 className="pb-2 text-[15px]">
                     ({averageRating}/5) Ratings
-                  </h5>
+                  </h5> */}
                 </div>
               </div>
             </Link>
